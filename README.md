@@ -1,6 +1,6 @@
 # shadowaitools (Java)
 
-Scan network exports for AI applications from the JVM. Hand `ShadowAIToolsClient.scan` the path of a resolver log, gateway log or firewall CSV. It pulls out the hostnames, looks every one up in the AI tool register, and gives you back a list in which AI products are flagged, described and paired with their vendors' data-use terms. The browser-based service for [unsanctioned AI detection from exports](https://www.shadowaitools.com) does the same with reports attached. This library brings it into Java tooling.
+Scan network exports for AI applications from the JVM. Hand `ShadowAIToolsClient.scan` the path of a resolver log, gateway log or firewall CSV. It pulls out the hostnames, looks every one up in the AI tool register, and gives you back a list in which AI products are flagged, described and paired with their vendors' data-use terms. The browser-based [shadow AI detection tool for log exports](https://www.shadowaitools.com/free-shadow-ai-audit.php) does the same with reports attached. This library brings it into Java tooling.
 
 ## Dependency
 
@@ -98,7 +98,7 @@ An AI inventory underpins several frameworks: deployer duties under the EU AI Ac
 
 ## Related data
 
-Every finding is backed by [the AI tool register behind each finding](https://www.aitoolsblocklist.com). Hosts cleared as non-AI can get [topic labels for everything that is not AI](https://www.urlcategorizationdatabase.com). If the scan shows your own automation, put [restrictions on agent browsing](https://www.aiagentallowlist.com) in place.
+Every finding is backed by the register used to [detect unauthorized AI tool use](https://www.aitoolsblocklist.com). Hosts cleared as non-AI can get a [domain category check](https://www.urlcategorizationdatabase.com/check-domain.php) instead. If the scan shows your own automation, put an [AI agent allow list against agent incidents](https://www.aiagentallowlist.com/ai-agent-incidents-report.php) in place.
 
 Analysts who prefer notebooks can use [the Python scanner](https://pypi.org/project/shadowaitools/). There is also [a Go library for static binaries](https://pkg.go.dev/github.com/explainableaixai/shadowaitools-go) and [a Dart version](https://pub.dev/packages/shadowaitools).
 
