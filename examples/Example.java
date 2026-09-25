@@ -1,0 +1,1 @@
+import com.alphaquantum.shadowaitools.ShadowAIToolsClient;public class Example{public static void main(String[]args)throws Exception{var client=new ShadowAIToolsClient(System.getenv("AQ_API_KEY"));System.out.println(client.check("example.com"));}}
